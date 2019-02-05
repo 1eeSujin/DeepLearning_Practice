@@ -10,6 +10,8 @@ y_test = [[0,0,1],[0,0,1],[0,0,1]]
 X = tf.placeholder("float",[None,3])
 Y = tf.placeholder("float",[None,3])
 
+
+
 W = tf.Variable(tf.random_normal([3,3]))
 b = tf.Variable(tf.random_normal([3]))
 
